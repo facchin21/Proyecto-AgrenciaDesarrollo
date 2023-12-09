@@ -1,0 +1,66 @@
+/* CLIENTES */
+
+.layout__clients{
+    background-color: var(--color-bg-dark);
+    padding: 14rem 11rem;
+    position: relative;
+    z-index: 1;
+}
+.clients__container{
+    max-width: var(--mx-width);
+    margin: 0 auto;
+}
+.clients__header{
+    text-align: left;
+}
+.clients__title{
+    font-size: 6.4rem;
+    font-weight: 500;
+    line-height: 1.2;
+    width: 50%;
+    margin-bottom: 3rem;
+    color: var(--color-secondary);
+}
+.clients__description{
+    font-size: 2rem;
+    text-align: left;
+    width: 30%;
+    margin-bottom: 5rem;
+    color: var(--color-text-description);
+}
+.clients__subtitle{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--color-subtitle);
+    margin-bottom: 1.5rem;
+}
+.clients__logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.clients__item{
+    width: calc(25% - 3rem);
+}
+.clients__img{
+    filter: grayscale(100%);
+    opacity: 0.5;
+    border-radius: 3rem;
+    transition: all 300ms ease-in-out;
+}
+.clients__img:hover{
+    filter: grayscale(0);
+    opacity: 1;
+    cursor: pointer;
+    background: linear-gradient(180deg, var(--color-bg-dark), var(--color-hover-dark));
+}
+.clients__client__item{
+    position: absolute;
+    z-index: -1;
+    top: 10rem;
+    right: 0;
+}
+

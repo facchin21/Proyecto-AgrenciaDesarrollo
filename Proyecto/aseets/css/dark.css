@@ -1,0 +1,94 @@
+    /* VARIABLES DARK */
+    :root{
+        --color-text-body: #D3D3D4;
+        --color-primary: #5956e9;
+        --color-secondary: #D3D3D4;
+        --color-banner: #27272e;
+        --color-text-btn: #fff;
+        --color-bg-btn: #E1674B;
+        --color-subtitle: #c75c6f;
+        --color-title: #D3D3D4;
+        --color-bg-services: #27272e;
+        --color-bg-projects: #292930;
+        --color-bg-dark: #27272E;
+        --color-text-description: #99A1AA;
+        --color-hover-dark: #FFDC60;
+        --color-borders: #393940;
+}
+body{
+    background-color: #212121;
+}
+.nav__submenu{
+    background-color: var(--color-banner);
+}
+.nav__title:hover{
+    color: var(--color-secondary);
+}
+.nav__title::before{
+    background-color: var(--color-secondary);
+}
+.submenu__title:hover{
+    color: var(--color-secondary);
+}
+.submenu__title::after{
+    background-color: var(--color-secondary);
+}
+.banner__btn{
+    background-color: var(--color-primary);
+}
+.menu__navbar--fixed{
+    background-color: var(--color-banner) ;
+}
+.project__contect{
+    background-color: var(--color-banner);
+}
+.layout__contact::before{
+    background-color: var(--color-banner);
+}
+
+.contact__btn{
+    background-color: var(--color-primary);
+}
+.fleft__group{
+    background-color: #27272E;
+    box-shadow: none;
+}
+.fleft__from-control{
+    background-color: #27272E;
+}
+.services__service{
+    background-color: var(--color-banner);
+    color: var(--color-secondary);
+}
+.review__description{
+    color: var(--color-secondary);
+}
+.author__name{
+    color: var(--color-secondary);
+}
+.new__more{
+    color: var(--color-text-body);
+}
+.widget__link:hover,
+.copyright__name:hover,
+.flinks__title:hover,
+.project__title:hover,
+.contact__subtitle{
+    color: var(--color-hover-dark);
+}
+.clients__img:hover,
+.stats__stat:hover{
+    background: linear-gradient(180deg, var(--color-bg-dark), var(--color-borders));
+}
+.menu-mobile{
+    background-color: var(--color-banner);
+}
+ 
+.mobile-btn__wrap{
+    background-color: var(--color-border-news);
+}
+ 
+.mobile__btn__line {
+    background-color: var(--color-banner);
+
+}

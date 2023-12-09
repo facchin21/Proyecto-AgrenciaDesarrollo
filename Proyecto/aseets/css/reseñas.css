@@ -1,0 +1,86 @@
+/* RESENIAS */
+
+.layout__reviews{
+    position: relative;
+    z-index: 1;
+    padding-top: 14rem;
+    padding-bottom: 11rem;
+}
+.reviews__grid{
+    max-width: var(--mx-width);
+    margin: 0 auto;
+}
+.reviews__header{
+    text-align: left;
+    margin-bottom: 6rem;
+}
+.reviews__subtitle{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--color-subtitle);
+    margin-bottom: 1.5rem;
+}
+.reviews__title{
+    font-size: 6.7rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--color-title);
+    margin-bottom: 2.3rem;
+}
+.reviews__description{
+    font-size: 1.8rem;
+    margin-top: 3rem 0;
+    width: 50%;
+}
+.reviews__continaer{
+    display: flex;
+    gap: 3rem;
+}
+.reviews__riview{
+    width: 33%;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.review__company{
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+.review__description{
+    font-size: 2.2rem;
+    line-height: 1.2;
+    margin-bottom: 4rem;
+    color: var(--color-bg-dark);
+}
+.review__author{
+    display: flex;
+    text-decoration: row;
+    align-items: center;
+    gap: 2rem;
+}
+.author__container-img{
+    border-radius: 3.5rem;
+    overflow: hidden;
+}
+.author__content{
+    flex: 1;
+}
+.author__name{
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--color-bg-dark);
+    margin-bottom: 0.3rem;
+}
+.author__description{
+    display: block;
+    font-size: 1.4rem;
+    color: var(--color--text-description);
+    opacity: 0.8;
+}
+.reviews__shapes__item{
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    top: 14rem;
+    right: 32%;
+}
